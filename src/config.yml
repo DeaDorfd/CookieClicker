@@ -1,0 +1,78 @@
+# Variables: %upgrade% %cookies% %price% %upgrades%(Displayes the Amount of an Upgrade) %profit% %cps%
+Prefix: "&8[&bCookieClicker&8] &7"
+
+# Is this 'false' then the Cookies and Upgrades are Saved in Cookies.yml in the CookieClicker folder
+UseMySQL: false
+
+# If this is disabled you cannot get upgrades.
+CookieUpgrades: true
+
+# If this is enabled, you will be notified when a new version is released.
+CheckforUpdates: true
+
+# This is not used when you disabled 'UseMySQL'
+MySQL:
+    UserName: "YourPasswordHere"
+    Host: "YourHostHere"
+    Database: "YourDatabaseHere"
+    Password: "YourPasswordHere"
+
+Messages:
+    MustPlayer: "You must a Player."
+    WrongCommand: "&cWrong &7Command. Please use &8/%command%"
+    NoPermission: "You have &cno &7right to do that!"
+    NotEnoughCookies: "You &cdon't &7have enough Cookies!"
+    BoughtUpgrade: "You have bought a &6%upgrade%&7."
+    CommingSoon: "This funtion &ccomming soon&7."
+    CookieUpgradesDisabled: "This function wars &cdeactivated&7."
+    CookiesDisplayed1: "&7Your Cookies"
+    CookiesDisplayed2: "&6%cookies%"
+    CookiesInfo1: "Your Cookies: &6%cookies%"
+    CookiesInfo2: "Your profit: &6%profit%"
+    
+Permissions:
+   Admin: "system.admin"
+   CookieCheck: "system.check"
+
+# When it is activated, the inventory is filled with glass.
+SetGlassInInventory: true
+
+# Material List for every item is here (Materials must have exactly this name):
+# https://helpch.at/docs/<version>/org/bukkit/Material.html
+# <version> in the link is your Minecraft version of the Server
+# Lores can be written among themselves, with a \n
+Inventory:
+    MainInventoryName: "&6Cookie Inventory"
+    UpgradeInventoryName: "&6Cookie Upgrades"
+    
+    Material_Shop: "GOLD_BLOCK"
+    ItemName_Shop: "&bCookie Shop"
+    Lore_Shop: "&cComming Soon"
+    
+    Material_Upgrades: "BRICK"
+    ItemName_Upgrades: "&6Cookie Upgrades"
+    Lore_Upgrades: "&7Upgrades for your Cookies"
+    
+    Material_Clicker: "COOKIE"
+    ItemName_Clicker: "&6Cookie Clicker"
+    Lore_Clicker: "&7You can Farm more Cookies"
+    
+    Material_Cursor: "STICK"
+    ItemName_Cursor: "&6Cursor &7(&6%upgrades%&7)"
+    Lore_Cursor: "&7Price: &6%price% &7| CPS: &6%cps%"
+    
+    Material_Grandma: "GOLD_NUGGET"
+    ItemName_Grandma: "&6Grandma &7(&6%upgrades%&7)"
+    Lore_Grandma: "&7Price: &6%price% &7| CPS: &6%cps%"
+    
+    Material_Farm: "GRASS"
+    ItemName_Farm: "&6Farm &7(&6%upgrades%&7)"
+    Lore_Farm: "&7Price: &6%price% &7| CPS: &6%cps%"
+    
+Upgrades:
+    Cursor_Price: 15
+    Cursor_CPS: 1
+    Grandma_Price: 100
+    Grandma_CPS: 3
+    Farm_Price: 1100
+    Farm_CPS: 8

@@ -1,0 +1,9 @@
+name: CookieClicker
+main: de.deadorfd.main.CookieClicker
+author: DeaDorfd
+version: 2.0
+api-version: 1.16
+
+commands:
+    Cookies: 
+    CookieCheck: 
