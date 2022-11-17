@@ -60,5 +60,4 @@ public class Check {
 	private static void setUpdatet(boolean state) {
 		updatet = state;
 	}
-
 }
