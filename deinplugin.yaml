@@ -1,0 +1,47 @@
+specVersion: 1
+type: plugin
+name:
+  de: CookieClicker
+  en: CookieClicker
+authors:
+  - DeaDorfd
+download:
+  url: https://api.spiget.org/v2/resources/75140/download
+  name: Spigot
+supportedGameVersions: 1.8 - 1.19.2
+supportedPlatforms:
+  - spigot
+category: game
+introduction:
+  de: Dies ist ein kleines Cookie-Clicker System.
+  en: This is a littel Cookie-Clicker System.
+description:
+  de: |
+    [Vollständige Beschreibung](https://www.spigotmc.org/resources/cookieclicker.75140/)
+    # Überblick
+    Dieses Plugin fügt ein ganz einfachen CookieClicker hinzu.
+      
+    # Nutzung
+    Setzte einen Goldblock, stelle alles in der config.yml richtig ein und du bist fertig.
+  en: |
+    [Full Description](https://www.spigotmc.org/resources/cookieclicker.75140/)
+    # Overview
+    This plugin adds a very simple CookieClicker.
+      
+    # Usage
+    Set a gold block, set everything correctly in config.yml and you're done.
+installation:
+  de: |
+    - Herunterladen des Plugins
+    - Ablegen der Dateien im Plugins-Ordner
+    - Server neustarten
+  en: |
+    - Download the plugin
+    - Put the files into your plugins-folder
+    - Restart your server
+tags:
+  - cookieclicker
+  - MySQL
+  - Config
+  - Simple
+icon: 
